@@ -1,0 +1,42 @@
+/* Footer.css */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;  /* Utiliser la hauteur de la fenêtre pour garantir que le footer occupe toute la hauteur de la page */
+    padding: 20px;  /* Espacement général pour éviter que le contenu touche les bords */
+}
+
+.footer-title {
+    text-align: left;
+    color: #D6BF6F;
+    margin-bottom: 20px;
+}
+
+.footer-paragraph {
+    margin-bottom: 15px;
+    text-align: left;
+    color: #D6BF6F;
+}
+
+.footer-button {
+    align-self: flex-start;  /* Aligner le bouton à gauche */
+    margin-top: 10px;  /* Pousser le bouton vers le bas de la page */
+    background-color: #D6BF6F;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: center;  /* Centrer le lien */
+    margin-top: auto;  /* Pousser le lien vers le bas */
+    /* Espacement pour laisser un peu de marge entre le bas de la page */
+}
+
+.footer-cgv {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-cgv:hover {
+    text-decoration: underline;
+}

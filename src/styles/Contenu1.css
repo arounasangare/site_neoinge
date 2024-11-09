@@ -1,0 +1,28 @@
+.contenu-card {
+  min-height: 250px; /* Hauteur minimale */
+  min-width: 100%; /* S'adapte à la largeur de la colonne */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+}
+
+.contenu-card .card-body {
+  padding: 20px; /* Ajustez si nécessaire */
+}
+
+
+.titre{
+
+  color: #D6BF6F;
+
+}
+
+.card-title{
+  color: #D6BF6F;
+}
+
+.contenu{
+  background-color: #1A1A1A;
+}

@@ -1,0 +1,17 @@
+/* Contenu2.css */
+
+.contenu2-bg {
+    background-color: #000;
+    color: #D6BF6F;;
+    padding: 20px;
+     /*padding: 40px 20px;*/
+}
+
+.accordion-item-spacing {
+    margin-bottom: 30px; /* Ajustez cette valeur pour plus ou moins d'espacement */
+}
+
+.arcordion.Hedear{
+    color: #D6BF6F;
+}
+

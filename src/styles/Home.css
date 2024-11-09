@@ -1,0 +1,40 @@
+/* Appliquer un fond noir et du texte en blanc pour la page */
+
+.titre1{
+    color: #D6BF6F;
+   }
+  
+   .titre2{
+    color: #D6BF6F;
+   }
+   
+  .home-container {
+    margin-bottom: 50px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Style pour les cartes */
+  .card-link {
+    text-decoration: none;
+  }
+  
+  .card-body .card-text {
+    color: black
+  }
+  
+  .card {
+    background-color: #D6BF6F; /* Couleur de fond des cartes */
+    max-height: 80px;
+  }
+
+  .card-link .card {
+    background-color: #D6BF6F; /* Couleur de fond des cartes */
+    max-height: 10px; /* Hauteur minimale */
+    min-width: 100%; /* Largeur pour chaque colonne */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}

@@ -1,0 +1,33 @@
+/* Exemples de styles personnalisés */
+/* navbar */
+.navbar {
+    
+    font-size: 18px; /* Change la taille du texte */
+    background-color: black;
+    width: 100%;
+    position: sticky; /* Utilisez fixed si vous voulez qu'elle soit toujours visible en haut de l'écran */
+    top: 0;
+    z-index: 1000; /* Assurez-vous que ce nombre est élevé pour qu'elle soit au-dessus des autres éléments */
+    
+    
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff !important; /* Assure la couleur blanche sur les liens */
+    padding: 10px 15px; /* Ajuste l'espacement des liens */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ff5722 !important; /* Couleur au survol pour les liens */
+  }
+  
+  .btn.btn-warning {
+    font-weight: bold;
+    background-color: #D6BF6F;
+    border: none;
+  }
+  
+  .btn.btn-warning:hover {
+    background-color: #e68900; /* Couleur au survol pour le bouton */
+  }
+  
